@@ -29,7 +29,7 @@ uvicorn main:app --reload
 
 **Method**: `POST`
 
-**Description**: This endpoint accepts a video URL and downloads the corresponding video file. Upon success, the video file is returned as a downloadable response.
+**Description**: This endpoint accepts a video(linkedin post) URL and downloads the corresponding video file. Upon success, the video file is returned as a downloadable response.
 
 #### Parameters
 - **`url`** (required):
