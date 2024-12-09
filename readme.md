@@ -22,7 +22,7 @@ uvicorn main:app --reload
 
 ---
 
-## Step 2: Understand the Endpoint
+## Step 2: Endpoint
 
 ### Video Download Endpoint
 **URL**: `/download`
