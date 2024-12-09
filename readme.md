@@ -77,7 +77,7 @@ curl -X POST -F "url=<VIDEO_URL>" http://127.0.0.1:8000/download --output downlo
 
 ## Step 5: Notes and Best Practices
 
-1. **Supported Platforms**: The API supports all linkedin post urls.
+1. **Supported Platforms**: The API supports all linkedin post and youtube urls.
 2. **Temporary Storage**: Downloaded files are temporarily stored on the server and cleaned up after being served.
 3. **API Integration**: Use the `/download` endpoint in your applications for seamless video downloading.
 
