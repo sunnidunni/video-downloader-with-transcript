@@ -4,7 +4,7 @@ https://colab.research.google.com/drive/14q-q10T9q_aXGjRA1o3glyJhz_e_ZRvB?usp=sh
 
 ## FastAPI Video Downloader Documentation
 
-Welcome to the API documentation for the **Video Downloader API**. This FastAPI service allows users to download videos from various platforms by providing a URL. Below is a step-by-step guide to help you use the API effectively.
+This is the API documentation for the **Video Downloader API**. This FastAPI service allows users to download videos from various platforms by providing a URL. Below is a guide to using the API.
 
 ---
 
