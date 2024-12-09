@@ -51,30 +51,6 @@ You can make a request to the API using the `curl` command-line tool. Replace `<
 curl -X POST -F "url=<VIDEO_URL>" http://127.0.0.1:8000/download --output downloaded_video.mp4
 ```
 
-### Using Python
-The following Python script demonstrates how to interact with the API programmatically:
-
-```python
-import requests
-
-# API Endpoint
-api_url = "http://127.0.0.1:8000/download"
-
-# Video URL to download
-video_url = "<VIDEO_URL>"
-
-# Sending the POST request
-response = requests.post(api_url, data={"url": video_url})
-
-if response.status_code == 200:
-    # Save the downloaded video
-    with open("downloaded_video.mp4", "wb") as f:
-        f.write(response.content)
-    print("Video downloaded successfully as 'downloaded_video.mp4'.")
-else:
-    print(f"Failed to download video. Error: {response.text}")
-```
-
 ### API Response
 #### Success
 - **HTTP Status Code**: `200`
