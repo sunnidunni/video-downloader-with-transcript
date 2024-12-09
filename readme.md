@@ -2,7 +2,7 @@
 
 https://colab.research.google.com/drive/14q-q10T9q_aXGjRA1o3glyJhz_e_ZRvB?usp=sharing#scrollTo=M1UARqrb7ysm
 
-## FastAPI Video Downloader Documentation
+## FastAPI Video Downloader Documentation (Update: Does not transcript, only downloads video.)
 
 This is the API documentation for the **Video Downloader API**. This FastAPI service allows users to download videos from various platforms by providing a URL. Below is a guide to using the API.
 
