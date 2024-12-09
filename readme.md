@@ -35,6 +35,10 @@ uvicorn main:app --reload
 - **`url`** (required):
   - Type: `string`
   - Description: The URL of the video to download.
+ 
+### FAST API Documentation
+
+You can also see the fast API documentation by going to `http://localhost:8000/docs#/` after running fast api.
 
 ---
 
